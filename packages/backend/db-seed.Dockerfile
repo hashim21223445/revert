@@ -1,4 +1,4 @@
-FROM node:alpine AS BUILD_IMAGE
+FROM node:25.3.0-alpine3.23 AS BUILD_IMAGE
 WORKDIR /app/
 
 COPY ./packages/backend /app/packages/backend
